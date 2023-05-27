@@ -1,0 +1,23 @@
+BLCKBSTR		149.00	Block Buster
+CHS BRG			119.00	Cheese Burger
+QRTR PNDR		139.00	Quarter Pounder
+4CHS BRGR		159.00	4 Cheese Burger
+MSHRM BRGR		129.00	Mushroom Burger
+BCN CHS BRGR		149.00	Bacon Cheese Burger
+PPRN BCN BRGR		179.00	Pepperoni Bacon Burger
+
+CHCKN SNDWCH		119.00	Chicken Sandwich
+LNG CHCKN SNDWCH	139.00	Long Chicken Sandwich
+
+PB BLCKBSTR		169.00	Plant-Based Block Buster
+PB LNG CHCKN SNDWCH	159.00	Plant-Based Long Chicken Sandwich
+
+S FRS			49.00	Thick Cut Fries
+S RNGS			59.00	Onion Rings
+S HSHBTS		59.00	Hashbrown Bites
+4PC NGGT		79.00	4pc Chicken Nuggets
+6PC NGGT		119.00	6pc Chicken Nuggets
+10PC NGGT		199.00	10pc Chicken Nuggets
+
+Main + Fries 		= +45
+Main + Fries + Drinks 	= +70

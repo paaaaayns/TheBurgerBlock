@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuPagePlantBased">
+
+    <include
+        android:id="@+id/toolBarPrimary"
+        layout="@layout/toolbar_main" />
+
+    <include
+        android:id="@+id/toolBarSecondary"
+        layout="@layout/toolbar_menu_item" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/p1"
+                    android:layout_width="170dp"
+                    android:layout_height="165dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/menuc_plant_based_block_buster" />
+
+                <ImageView
+                    android:id="@+id/p2"
+                    android:layout_width="170dp"
+                    android:layout_height="165dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/menuc_plant_based_long_chicken_sandwich" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

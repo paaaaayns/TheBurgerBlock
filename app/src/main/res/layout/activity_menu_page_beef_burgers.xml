@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuPageBeefBurgers">
+
+    <include
+        android:id="@+id/toolBarPrimary"
+        layout="@layout/toolbar_main" />
+
+    <include
+        android:id="@+id/toolBarSecondary"
+        layout="@layout/toolbar_menu_item" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/b1"
+                    android:layout_width="170dp"
+                    android:layout_height="165dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/menuc_blockbuster" />
+
+                <ImageView
+                    android:id="@+id/b2"
+                    android:layout_width="170dp"
+                    android:layout_height="165dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/menuc_cheese_burger" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/b3"
+                    android:layout_width="170dp"
+                    android:layout_height="165dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/menuc_quarter_pounder" />
+
+                <ImageView
+                    android:id="@+id/b4"
+                    android:layout_width="170dp"
+                    android:layout_height="165dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/menuc_four_cheese_burger" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/b5"
+                    android:layout_width="170dp"
+                    android:layout_height="165dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/menuc_mushroom_burger" />
+
+                <ImageView
+                    android:id="@+id/b6"
+                    android:layout_width="170dp"
+                    android:layout_height="165dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/menuc_bacon_cheese_burger" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/b7"
+                    android:layout_width="170dp"
+                    android:layout_height="165dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/menuc_pepperoni_bacon_burger" />
+
+                <ImageView
+                    android:layout_width="170dp"
+                    android:layout_height="165dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/menuc_four_cheese_burger"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
